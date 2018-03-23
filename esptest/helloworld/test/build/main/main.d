@@ -79,9 +79,6 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/list.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/string.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs.h \
- /home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
- /home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/geraldo/esp/esp-idf/components/bt/include/esp_bt.h \
@@ -250,12 +247,6 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
 /home/geraldo/esp/esp-idf/components/newlib/include/string.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h:
-
-/home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs.h:
-
-/home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs_flash.h:
-
-/home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
 /home/geraldo/esp/esp-idf/components/log/include/esp_log.h:
 
