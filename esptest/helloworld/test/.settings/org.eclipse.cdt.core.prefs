@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.898777303/IDF_PATH/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.898777303/IDF_PATH/operation=replace
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.898777303/IDF_PATH/value=/home/geraldo/esp/esp-idf
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.898777303/PATH/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.898777303/PATH/operation=replace
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.898777303/PATH/value=${PATH}\:/opt/xtensa-esp32-elf/bin
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.898777303/append=true
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.898777303/appendContributed=true
