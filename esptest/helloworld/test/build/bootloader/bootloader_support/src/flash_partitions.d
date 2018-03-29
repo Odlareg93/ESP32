@@ -4,7 +4,7 @@ src/flash_partitions.o: \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_flash_data_types.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/bootloader/../include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/bootloader/../include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -23,7 +23,7 @@ src/flash_partitions.o: \
 
 /home/geraldo/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/bootloader/../include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/bootloader/../include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

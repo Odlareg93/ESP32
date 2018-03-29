@@ -1,7 +1,7 @@
 bluedroid/stack/avdt/avdt_ad.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/avdt/avdt_ad.c \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/newlib.h \
@@ -50,6 +50,8 @@ bluedroid/stack/avdt/avdt_ad.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/l2cdefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/hcidefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/osi/include/fixed_queue.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/osi/include/list.h \
@@ -60,7 +62,7 @@ bluedroid/stack/avdt/avdt_ad.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h:
 
@@ -157,6 +159,10 @@ bluedroid/stack/avdt/avdt_ad.o: \
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/hcidefs.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_api.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h:
 

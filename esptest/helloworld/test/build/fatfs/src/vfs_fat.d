@@ -37,7 +37,7 @@ src/vfs_fat.o: /home/geraldo/esp/esp-idf/components/fatfs/src/vfs_fat.c \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/assert.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -180,7 +180,7 @@ src/vfs_fat.o: /home/geraldo/esp/esp-idf/components/fatfs/src/vfs_fat.c \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/assert.h:
 

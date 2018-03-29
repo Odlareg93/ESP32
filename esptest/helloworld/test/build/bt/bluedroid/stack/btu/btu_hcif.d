@@ -20,7 +20,7 @@ bluedroid/stack/btu/btu_hcif.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/hcimsgs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h \
@@ -45,6 +45,8 @@ bluedroid/stack/btu/btu_hcif.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/l2cap/include/l2c_int.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/l2c_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/l2cdefs.h \
@@ -170,7 +172,7 @@ bluedroid/stack/btu/btu_hcif.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h:
 
@@ -219,6 +221,10 @@ bluedroid/stack/btu/btu_hcif.o: \
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/l2cap/include/l2c_int.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_api.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h:
 

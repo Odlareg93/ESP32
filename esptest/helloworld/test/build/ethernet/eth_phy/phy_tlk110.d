@@ -6,7 +6,7 @@ eth_phy/phy_tlk110.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/features.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -97,7 +97,7 @@ eth_phy/phy_tlk110.o: \
 
 /home/geraldo/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

@@ -16,7 +16,7 @@ spiram.o: /home/geraldo/esp/esp-idf/components/esp32/./spiram.c \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/lock.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h \
@@ -121,7 +121,7 @@ spiram.o: /home/geraldo/esp/esp-idf/components/esp32/./spiram.c \
 
 /home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/esp_attr.h:
 

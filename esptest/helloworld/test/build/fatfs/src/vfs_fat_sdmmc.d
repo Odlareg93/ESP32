@@ -21,7 +21,7 @@ src/vfs_fat_sdmmc.o: \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -153,7 +153,7 @@ src/vfs_fat_sdmmc.o: \
 
 /home/geraldo/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

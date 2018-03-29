@@ -27,7 +27,7 @@ pm_locks.o: /home/geraldo/esp/esp-idf/components/esp32/./pm_locks.c \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/assert.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp32/pm.h \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/rtc.h \
@@ -138,7 +138,7 @@ pm_locks.o: /home/geraldo/esp/esp-idf/components/esp32/./pm_locks.c \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/assert.h:
 

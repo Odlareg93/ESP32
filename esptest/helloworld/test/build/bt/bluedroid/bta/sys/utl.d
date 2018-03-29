@@ -23,7 +23,7 @@ bluedroid/bta/sys/utl.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/alloca.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/types.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/types.h \
@@ -41,6 +41,8 @@ bluedroid/bta/sys/utl.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/hcidefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/osi/include/allocator.h \
  /home/geraldo/esp/esp-idf/components/heap/include/esp_heap_caps.h \
@@ -92,7 +94,7 @@ bluedroid/bta/sys/utl.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h:
 
@@ -127,6 +129,10 @@ bluedroid/bta/sys/utl.o: \
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/hcidefs.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h:
 

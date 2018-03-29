@@ -1,5 +1,5 @@
 int_wdt.o: /home/geraldo/esp/esp-idf/components/esp32/./int_wdt.c \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -87,7 +87,7 @@ int_wdt.o: /home/geraldo/esp/esp-idf/components/esp32/./int_wdt.c \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_dport_access.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_int_wdt.h
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h:
 

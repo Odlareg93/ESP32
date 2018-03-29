@@ -12,7 +12,7 @@ library/ssl_lib.o: \
  /home/geraldo/esp/esp-idf/components/openssl/include/internal/ssl_cert.h \
  /home/geraldo/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h \
  /home/geraldo/esp/esp-idf/components/openssl/include/platform/ssl_opt.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/openssl/include/platform/ssl_port.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_types.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/cdefs.h \
@@ -70,7 +70,7 @@ library/ssl_lib.o: \
 
 /home/geraldo/esp/esp-idf/components/openssl/include/platform/ssl_opt.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/openssl/include/platform/ssl_port.h:
 

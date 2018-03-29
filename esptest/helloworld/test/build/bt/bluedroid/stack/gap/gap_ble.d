@@ -1,7 +1,7 @@
 bluedroid/stack/gap/gap_ble.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/gap/gap_ble.c \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -51,6 +51,7 @@ bluedroid/stack/gap/gap_ble.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/hcidefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/l2c_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/l2cdefs.h \
@@ -124,7 +125,7 @@ bluedroid/stack/gap/gap_ble.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
 
@@ -223,6 +224,8 @@ bluedroid/stack/gap/gap_ble.o: \
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/hcidefs.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h:
 

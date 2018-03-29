@@ -14,7 +14,7 @@ croutine.o: /home/geraldo/esp/esp-idf/components/freertos/./croutine.c \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -109,7 +109,7 @@ croutine.o: /home/geraldo/esp/esp-idf/components/freertos/./croutine.c \
 
 /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

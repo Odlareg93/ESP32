@@ -1,7 +1,7 @@
 bluedroid/external/sbc/decoder/srce/framing.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/external/sbc/decoder/srce/framing.c \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -45,7 +45,7 @@ bluedroid/external/sbc/decoder/srce/framing.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
 

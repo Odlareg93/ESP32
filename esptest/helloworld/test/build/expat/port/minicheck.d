@@ -24,7 +24,7 @@ port/minicheck.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/setjmp.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/setjmp.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/assert.h \
  /home/geraldo/esp/esp-idf/components/expat/include/expat/internal.h \
  /home/geraldo/esp/esp-idf/components/expat/port/include/minicheck.h
@@ -77,7 +77,7 @@ port/minicheck.o: \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/assert.h:
 

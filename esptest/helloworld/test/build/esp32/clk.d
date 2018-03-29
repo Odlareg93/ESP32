@@ -20,7 +20,7 @@ clk.o: /home/geraldo/esp/esp-idf/components/esp32/./clk.c \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -102,7 +102,7 @@ clk.o: /home/geraldo/esp/esp-idf/components/esp32/./clk.c \
 
 /home/geraldo/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/esp_attr.h:
 

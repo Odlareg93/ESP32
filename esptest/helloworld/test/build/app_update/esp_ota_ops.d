@@ -26,7 +26,7 @@ esp_ota_ops.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/string.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/assert.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -150,7 +150,7 @@ esp_ota_ops.o: \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/assert.h:
 

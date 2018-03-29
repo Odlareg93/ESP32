@@ -26,7 +26,7 @@ bluedroid/stack/btu/btu_task.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/alloca.h \
@@ -101,6 +101,8 @@ bluedroid/stack/btu/btu_task.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/hcidefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_int.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/rfcdefs.h \
@@ -121,9 +123,10 @@ bluedroid/stack/btu/btu_task.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/l2cdefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/osi/include/list.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/osi/include/osi.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/sdp/include/sdpint.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/gap/include/gap_int.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/gap_api.h \
- /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/profiles_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/l2c_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/gatt_api.h \
@@ -187,7 +190,7 @@ bluedroid/stack/btu/btu_task.o: \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -337,6 +340,10 @@ bluedroid/stack/btu/btu_task.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
 
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h:
+
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_int.h:
@@ -377,11 +384,13 @@ bluedroid/stack/btu/btu_task.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/osi/include/osi.h:
 
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/sdp/include/sdpint.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h:
+
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/gap/include/gap_int.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/gap_api.h:
-
-/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/profiles_api.h:
 

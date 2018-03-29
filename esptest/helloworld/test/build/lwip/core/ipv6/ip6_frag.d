@@ -31,7 +31,7 @@ core/ipv6/ip6_frag.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/stat.h \
  /home/geraldo/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_system.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -183,7 +183,7 @@ core/ipv6/ip6_frag.o: \
 
 /home/geraldo/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/esp_system.h:
 

@@ -1,5 +1,5 @@
 intr_alloc.o: /home/geraldo/esp/esp-idf/components/esp32/./intr_alloc.c \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -82,7 +82,7 @@ intr_alloc.o: /home/geraldo/esp/esp-idf/components/esp32/./intr_alloc.c \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log_internal.h
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h:
 

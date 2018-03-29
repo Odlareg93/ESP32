@@ -16,7 +16,7 @@ flash_ops.o: /home/geraldo/esp/esp-idf/components/spi_flash/./flash_ops.c \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/alloca.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/assert.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/string.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h \
@@ -138,7 +138,7 @@ flash_ops.o: /home/geraldo/esp/esp-idf/components/spi_flash/./flash_ops.c \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/assert.h:
 

@@ -24,7 +24,7 @@ bluedroid/stack/sdp/sdp_server.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/alloca.h \
  /home/geraldo/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/geraldo/esp/esp-idf/components/heap/include/multi_heap.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btu.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h \
@@ -102,7 +102,7 @@ bluedroid/stack/sdp/sdp_server.o: \
 
 /home/geraldo/esp/esp-idf/components/heap/include/multi_heap.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btu.h:
 

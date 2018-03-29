@@ -6,7 +6,7 @@ src/nvs_api.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/alloca.h \
@@ -89,7 +89,7 @@ src/nvs_api.o: \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/stdlib.h:
 

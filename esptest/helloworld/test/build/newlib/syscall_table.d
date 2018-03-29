@@ -39,7 +39,7 @@ syscall_table.o: \
  /home/geraldo/esp/esp-idf/components/vfs/include/esp_vfs.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/assert.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/dirent.h \
  /home/geraldo/esp/esp-idf/components/vfs/include/sys/dirent.h \
@@ -123,7 +123,7 @@ syscall_table.o: \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/assert.h:
 

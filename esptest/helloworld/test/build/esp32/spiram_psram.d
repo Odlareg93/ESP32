@@ -1,6 +1,6 @@
 spiram_psram.o: \
  /home/geraldo/esp/esp-idf/components/esp32/./spiram_psram.c \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/string.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/newlib.h \
@@ -60,7 +60,7 @@ spiram_psram.o: \
  /home/geraldo/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/geraldo/esp/esp-idf/components/driver/include/driver/periph_ctrl.h
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/string.h:
 

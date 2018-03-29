@@ -33,7 +33,7 @@ src/crypto/ms_funcs.o: \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/assert.h \
  /home/geraldo/esp/esp-idf/components/lwip/include/lwip/lwip/mem.h \
  /home/geraldo/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h \
@@ -182,7 +182,7 @@ src/crypto/ms_funcs.o: \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/assert.h:
 

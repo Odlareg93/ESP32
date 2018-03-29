@@ -26,7 +26,7 @@ event_loop.o: /home/geraldo/esp/esp-idf/components/esp32/./event_loop.c \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/assert.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_wifi.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -174,7 +174,7 @@ event_loop.o: /home/geraldo/esp/esp-idf/components/esp32/./event_loop.c \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/assert.h:
 

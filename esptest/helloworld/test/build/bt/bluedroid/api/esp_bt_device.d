@@ -28,7 +28,7 @@ bluedroid/api/esp_bt_device.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/assert.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_defs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_main.h \
@@ -171,7 +171,7 @@ bluedroid/api/esp_bt_device.o: \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/assert.h:
 

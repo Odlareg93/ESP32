@@ -77,8 +77,8 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/limits.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/string.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h \
+ /home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
+ /home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/geraldo/esp/esp-idf/components/bt/include/esp_bt.h \
@@ -86,7 +86,9 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_main.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_device.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_defs.h \
- /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gap_bt_api.h
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gap_ble_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gatts_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gatt_defs.h
 
 /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -244,9 +246,9 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
 
 /home/geraldo/esp/esp-idf/components/freertos/include/freertos/list.h:
 
-/home/geraldo/esp/esp-idf/components/newlib/include/string.h:
+/home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs_flash.h:
 
-/home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h:
+/home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs.h:
 
 /home/geraldo/esp/esp-idf/components/log/include/esp_log.h:
 
@@ -262,5 +264,9 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_defs.h:
 
-/home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gap_bt_api.h:
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gap_ble_api.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gatts_api.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gatt_defs.h:
 /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c:

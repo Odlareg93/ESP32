@@ -30,7 +30,7 @@ bluedroid/btc/core/btc_util.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_defs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -102,7 +102,7 @@ bluedroid/btc/core/btc_util.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/log/include/esp_log.h:
 

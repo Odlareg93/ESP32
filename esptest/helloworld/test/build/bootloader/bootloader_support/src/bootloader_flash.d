@@ -3,7 +3,7 @@ src/bootloader_flash.o: \
  /home/geraldo/esp/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/geraldo/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/bootloader/../include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/bootloader/../include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -27,7 +27,7 @@ src/bootloader_flash.o: \
 
 /home/geraldo/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/bootloader/../include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/bootloader/../include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/log/include/esp_log.h:
 

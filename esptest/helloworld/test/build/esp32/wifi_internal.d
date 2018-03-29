@@ -21,7 +21,7 @@ wifi_internal.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/alloca.h \
  /home/geraldo/esp/esp-idf/components/heap/include/multi_heap.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h
 
 /home/geraldo/esp/esp-idf/components/esp32/include/esp_attr.h:
 
@@ -65,5 +65,5 @@ wifi_internal.o: \
 
 /home/geraldo/esp/esp-idf/components/heap/include/multi_heap.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 /home/geraldo/esp/esp-idf/components/esp32/./wifi_internal.c:

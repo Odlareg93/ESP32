@@ -1,7 +1,7 @@
 libcoap/src/address.o: \
  /home/geraldo/esp/esp-idf/components/coap/libcoap/src/address.c \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -117,7 +117,7 @@ libcoap/src/address.o: \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/stdlib.h:
 

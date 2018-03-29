@@ -24,7 +24,7 @@ task_wdt.o: /home/geraldo/esp/esp-idf/components/esp32/./task_wdt.c \
  /home/geraldo/esp/esp-idf/components/newlib/include/alloca.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/string.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/hal.h \
@@ -145,7 +145,7 @@ task_wdt.o: /home/geraldo/esp/esp-idf/components/esp32/./task_wdt.c \
 
 /home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 

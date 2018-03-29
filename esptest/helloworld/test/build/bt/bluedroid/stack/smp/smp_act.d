@@ -23,7 +23,7 @@ bluedroid/stack/smp/smp_act.o: \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/types.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/types.h \
@@ -45,6 +45,8 @@ bluedroid/stack/smp/smp_act.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/rfcdefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_ble_int.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/osi/include/fixed_queue.h \
@@ -160,7 +162,7 @@ bluedroid/stack/smp/smp_act.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h:
 
@@ -203,6 +205,10 @@ bluedroid/stack/smp/smp_act.o: \
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/rfcdefs.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_api.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h:
 

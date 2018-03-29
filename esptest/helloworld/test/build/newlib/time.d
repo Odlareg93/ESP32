@@ -34,7 +34,7 @@ time.o: /home/geraldo/esp/esp-idf/components/newlib/./time.c \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/assert.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_intr_alloc.h \
@@ -163,7 +163,7 @@ time.o: /home/geraldo/esp/esp-idf/components/newlib/./time.c \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/assert.h:
 

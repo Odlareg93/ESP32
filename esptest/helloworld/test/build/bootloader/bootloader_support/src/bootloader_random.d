@@ -13,7 +13,7 @@ src/bootloader_random.o: \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_dport_access.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/bootloader/../include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/bootloader/../include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/i2s_reg.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -46,7 +46,7 @@ src/bootloader_random.o: \
 
 /home/geraldo/esp/esp-idf/components/esp32/include/esp_dport_access.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/bootloader/../include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/bootloader/../include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/i2s_reg.h:
 

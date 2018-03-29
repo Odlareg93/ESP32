@@ -1,6 +1,6 @@
 pm_trace.o: /home/geraldo/esp/esp-idf/components/esp32/./pm_trace.c \
  /home/geraldo/esp/esp-idf/components/esp32/./pm_trace.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/driver/include/driver/gpio.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
@@ -42,7 +42,7 @@ pm_trace.o: /home/geraldo/esp/esp-idf/components/esp32/./pm_trace.c \
 
 /home/geraldo/esp/esp-idf/components/esp32/./pm_trace.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/driver/include/driver/gpio.h:
 

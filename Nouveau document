@@ -1,0 +1,198 @@
+system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE
+E (16) system_api: Base MAC address from BLK3 of EFUSE version error, version = 0
+
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+
+#include "nvs_flash.h"
+
+#include "esp_system.h"
+#include "esp_err.h"
+#include "esp_bt.h"
+#include "esp_bt_main.h"
+#include "esp_bt_device.h"
+#include "esp_gap_ble_api.h"
+
+static esp_ble_adv_params_t     ble_adv_params = {
+
+	.adv_int_min = 0x20,
+	.adv_int_max = 0x40,
+	.adv_type = ADV_TYPE_NONCONN_IND,
+	.own_addr_type  = BLE_ADDR_TYPE_PUBLIC,
+	.channel_map = ADV_CHNL_ALL,
+	.adv_filter_policy  = ADV_FILTER_ALLOW_SCAN_ANY_CON_ANY,
+};
+
+
+static esp_ble_adv_data_t adv_data = {
+
+	.include_name = true,
+	.flag = ESP_BLE_ADV_FLAG_LIMIT_DISC | ESP_BLE_ADV_FLAG_BREDR_NOT_SPT,
+	.appearance = 384,
+};
+
+void test(){
+	printf("ble init and enable\n");
+}
+
+void esp_connection(){//void *pvParameters){
+	test();
+	//char bt_name = "ESP_TEST_BLE";
+	if (esp_ble_gap_set_device_name("ESP_TEST_BLE") != ESP_OK){
+		printf("name fail");
+	}
+
+	//esp_bt_gap_set_scan_mode(ESP_BT_SCAN_MODE_CONNECTABLE_DISCOVERABLE);
+	//esp_bt_gap_start_discovery(ESP_BT_INQ_MODE_GENERAL_INQUIRY, ESP_BT_GAP_MAX_INQ_LEN, 0x01);
+	printf("BT visible");
+
+}
+
+void app_main(void)
+{
+	/*
+	uint8_t mac_addr[6] = {0};
+
+	if (esp_base_mac_addr_set(mac_addr) != ESP_OK){
+		return;
+	}
+	if (esp_efuse_mac_get_custom(mac_addr) != ESP_OK){
+		return;
+	}
+	if (esp_base_mac_addr_get(mac_addr) != ESP_OK){
+		return;
+	}
+	*/
+	esp_err_t ret = nvs_flash_init();
+	if (ret == ESP_ERR_NVS_NO_FREE_PAGES) {
+		ESP_ERROR_CHECK(nvs_flash_erase());
+		ret = nvs_flash_init();
+	}
+	ESP_ERROR_CHECK( ret );
+
+	esp_bt_controller_mem_release(ESP_BT_MODE_CLASSIC_BT);
+	esp_bt_controller_config_t bt_conf = BT_CONTROLLER_INIT_CONFIG_DEFAULT();
+
+	if (esp_bt_controller_init(&bt_conf) != ESP_OK) {
+		return;
+	}
+
+	if (esp_bt_controller_enable(ESP_BT_MODE_BLE) != ESP_OK) {
+		return;
+	}
+
+	if (esp_bluedroid_init() != ESP_OK){
+		return;
+	}
+
+	if (esp_bluedroid_enable() != ESP_OK){
+		return;
+	}
+
+	esp_ble_gap_start_advertising(&ble_adv_params);
+	esp_ble_gap_set_device_name("ESP_TEST_BLE");
+	esp_ble_gap_config_adv_data(&adv_data);
+
+
+	//test();
+	//esp_connection();
+	//xTaskCreate(&esp_connection, "esp_connection", 2048, NULL, 5, NULL);
+
+}
+////////////////////////////////////////////////////////////////////////////////////////
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+
+#include "nvs_flash.h"
+
+#include "esp_system.h"
+#include "esp_err.h"
+#include "esp_log.h"
+#include "esp_bt.h"
+#include "esp_bt_main.h"
+#include "esp_bt_device.h"
+#include "esp_gap_ble_api.h"
+#include "esp_gatts_api.h"
+
+#define GATTS_TAG "GATTS"
+static void gatts_profile_event_handler(esp_gatts_cb_event_t event, esp_gatt_if_t gatts_if, esp_ble_gatts_cb_param_t *param);
+/*
+void test(){
+	printf("ble init and enable\n");
+}
+
+void esp_connection(){//void *pvParameters){
+	test();
+	//char bt_name = "ESP_TEST_BLE";
+	if (esp_ble_gap_set_device_name("ESP_TEST_BLE") != ESP_OK){
+		printf("name fail");
+	}
+
+	//esp_bt_gap_set_scan_mode(ESP_BT_SCAN_MODE_CONNECTABLE_DISCOVERABLE);
+	//esp_bt_gap_start_discovery(ESP_BT_INQ_MODE_GENERAL_INQUIRY, ESP_BT_GAP_MAX_INQ_LEN, 0x01);
+	printf("BT visible");
+
+}
+*/
+struct gatts_profile_inst {
+    esp_gatts_cb_t gatts_cb;
+    uint16_t gatts_if;
+    uint16_t app_id;
+    uint16_t conn_id;
+    uint16_t service_handle;
+    esp_gatt_srvc_id_t service_id;
+    uint16_t char_handle;
+    esp_bt_uuid_t char_uuid;
+    esp_gatt_perm_t perm;
+    esp_gatt_char_prop_t property;
+    uint16_t descr_handle;
+    esp_bt_uuid_t descr_uuid;
+};
+
+static struct gatts_profile_inst gl_profile = {
+        .gatts_cb = gatts_profile_event_handler,
+        .gatts_if = ESP_GATT_IF_NONE,
+};
+
+static void gatts_profile_event_handler(esp_gatts_cb_event_t event, esp_gatt_if_t gatts_if, esp_ble_gatts_cb_param_t *param) {
+
+}
+
+void app_main(void)
+{
+	 esp_err_t ret;
+
+	 // Initialize NVS.
+	 ret = nvs_flash_init();
+	 if (ret == ESP_ERR_NVS_NO_FREE_PAGES) {
+		 ESP_ERROR_CHECK(nvs_flash_erase());
+	     ret = nvs_flash_init();
+	 }
+	 ESP_ERROR_CHECK(ret);
+
+	 esp_bt_controller_config_t bt_cfg = BT_CONTROLLER_INIT_CONFIG_DEFAULT();
+	 ret = esp_bt_controller_init(&bt_cfg);
+	 if (ret) {
+		 ESP_LOGE(GATTS_TAG, "%s initialize controller failed\n", __func__);
+	     return;
+	 }
+
+	 ret = esp_bt_controller_enable(ESP_BT_MODE_BLE);
+	 if (ret) {
+		 ESP_LOGE(GATTS_TAG, "%s enable controller failed\n", __func__);
+		 return;
+	 }
+	 ret = esp_bluedroid_init();
+	 if (ret) {
+		 ESP_LOGE(GATTS_TAG, "%s init bluetooth failed\n", __func__);
+		 return;
+	 }
+	 ret = esp_bluedroid_enable();
+	 if (ret) {
+		 ESP_LOGE(GATTS_TAG, "%s enable bluetooth failed\n", __func__);
+		 return;
+	 }
+	 printf("ble init and enable\n");
+
+}
+

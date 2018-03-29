@@ -14,7 +14,7 @@ xtensa_intr_asm.o: \
  /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h
 
@@ -46,7 +46,7 @@ xtensa_intr_asm.o: \
 
 /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

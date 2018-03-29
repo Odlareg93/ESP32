@@ -1,7 +1,7 @@
 bluedroid/osi/future.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/osi/future.c \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/newlib.h \
@@ -92,7 +92,7 @@ bluedroid/osi/future.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h:
 

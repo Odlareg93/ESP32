@@ -44,7 +44,7 @@ nghttp2/lib/nghttp2_http.o: \
  /home/geraldo/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_pq.h \
  /home/geraldo/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_callbacks.h \
  /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/assert.h \
  /home/geraldo/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h
 
@@ -136,7 +136,7 @@ nghttp2/lib/nghttp2_http.o: \
 
 /home/geraldo/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/assert.h:
 

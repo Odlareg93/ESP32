@@ -1,5 +1,5 @@
 stack_check.o: /home/geraldo/esp/esp-idf/components/esp32/./stack_check.c \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_system.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -56,7 +56,7 @@ stack_check.o: /home/geraldo/esp/esp-idf/components/esp32/./stack_check.c \
  /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/esp_system.h:
 

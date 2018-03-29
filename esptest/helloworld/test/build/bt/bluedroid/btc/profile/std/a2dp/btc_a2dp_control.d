@@ -1,7 +1,7 @@
 bluedroid/btc/profile/std/a2dp/btc_a2dp_control.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.c \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -44,9 +44,10 @@ bluedroid/btc/profile/std/a2dp/btc_a2dp_control.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/hcidefs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
- /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_ble_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_common_types.h \
@@ -107,7 +108,6 @@ bluedroid/btc/profile/std/a2dp/btc_a2dp_control.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/bta/include/bta_av_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/avrc_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/avct_api.h \
- /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/avrc_defs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/avdt_api.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/a2d_api.h \
@@ -131,7 +131,7 @@ bluedroid/btc/profile/std/a2dp/btc_a2dp_control.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
 
@@ -217,11 +217,13 @@ bluedroid/btc/profile/std/a2dp/btc_a2dp_control.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
 
-/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h:
-
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdpdefs.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/smp_api.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/btm_ble_api.h:
 
@@ -342,8 +344,6 @@ bluedroid/btc/profile/std/a2dp/btc_a2dp_control.o: \
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/avrc_api.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/avct_api.h:
-
-/home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/sdp_api.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/include/avrc_defs.h:
 

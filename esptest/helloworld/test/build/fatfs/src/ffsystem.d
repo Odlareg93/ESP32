@@ -10,7 +10,7 @@ src/ffsystem.o: /home/geraldo/esp/esp-idf/components/fatfs/src/ffsystem.c \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -106,7 +106,7 @@ src/ffsystem.o: /home/geraldo/esp/esp-idf/components/fatfs/src/ffsystem.c \
 
 /home/geraldo/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

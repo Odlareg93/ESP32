@@ -1,7 +1,7 @@
 bluedroid/stack/avrc/avrc_api.o: \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/stack/avrc/avrc_api.c \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h \
- /home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h \
+ /home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/newlib.h \
@@ -52,7 +52,7 @@ bluedroid/stack/avrc/avrc_api.o: \
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/include/bt_trace.h:
 
-/home/geraldo/git/ESP32/esptest/helloworld/myapp/build/include/sdkconfig.h:
+/home/geraldo/git/ESP32/esptest/helloworld/test/build/include/sdkconfig.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h:
 
