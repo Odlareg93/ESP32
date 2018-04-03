@@ -1,16 +1,28 @@
 main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
- /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/sys/reent.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/newlib.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/config.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/features.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/sys/cdefs.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/machine/_default_types.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/sys/reent.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/_types.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/machine/_types.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/lock.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/sys/types.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/machine/types.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/sys/sched.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/sys/stdio.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/stdlib.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/machine/stdlib.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/alloca.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/string.h \
+ /home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h \
+ /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -25,11 +37,6 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/stdlib.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/sys/cdefs.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/machine/stdlib.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/alloca.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/geraldo/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -45,11 +52,6 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
  /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_timer.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/stdio.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/sys/types.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/machine/types.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/sys/sched.h \
- /home/geraldo/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/geraldo/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/geraldo/esp/esp-idf/components/heap/include/multi_heap.h \
@@ -77,22 +79,24 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/geraldo/esp/esp-idf/components/newlib/include/limits.h \
  /home/geraldo/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
- /home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs.h \
+ /home/geraldo/esp/esp-idf/components/freertos/include/freertos/event_groups.h \
+ /home/geraldo/esp/esp-idf/components/freertos/include/freertos/timers.h \
+ /home/geraldo/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log.h \
  /home/geraldo/esp/esp-idf/components/log/include/esp_log_internal.h \
+ /home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
+ /home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs.h \
  /home/geraldo/esp/esp-idf/components/bt/include/esp_bt.h \
  /home/geraldo/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_main.h \
- /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_device.h \
- /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_defs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gap_ble_api.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_defs.h \
  /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gatts_api.h \
- /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gatt_defs.h
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gatt_defs.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_defs.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_main.h \
+ /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gatt_common_api.h
 
-/home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
-
-/home/geraldo/esp/esp-idf/components/newlib/include/sys/reent.h:
+/home/geraldo/esp/esp-idf/components/newlib/include/stdio.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h:
 
@@ -106,13 +110,39 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
 
 /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
 
+/home/geraldo/esp/esp-idf/components/newlib/include/sys/cdefs.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/machine/_default_types.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/sys/reent.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h:
+
 /home/geraldo/esp/esp-idf/components/newlib/include/sys/_types.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/machine/_types.h:
 
-/home/geraldo/esp/esp-idf/components/newlib/include/machine/_default_types.h:
-
 /home/geraldo/esp/esp-idf/components/newlib/include/sys/lock.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/sys/types.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/machine/types.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/sys/sched.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/sys/stdio.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/stdlib.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/machine/stdlib.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/alloca.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/string.h:
+
+/home/geraldo/esp/esp-idf/components/newlib/include/sys/string.h:
+
+/home/geraldo/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/geraldo/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -141,16 +171,6 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
 /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/corebits.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h:
-
-/home/geraldo/esp/esp-idf/components/newlib/include/stdlib.h:
-
-/home/geraldo/esp/esp-idf/components/newlib/include/_ansi.h:
-
-/home/geraldo/esp/esp-idf/components/newlib/include/sys/cdefs.h:
-
-/home/geraldo/esp/esp-idf/components/newlib/include/machine/stdlib.h:
-
-/home/geraldo/esp/esp-idf/components/newlib/include/alloca.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
@@ -181,16 +201,6 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
 /home/geraldo/esp/esp-idf/components/esp32/include/esp_crosscore_int.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/esp_timer.h:
-
-/home/geraldo/esp/esp-idf/components/newlib/include/stdio.h:
-
-/home/geraldo/esp/esp-idf/components/newlib/include/sys/types.h:
-
-/home/geraldo/esp/esp-idf/components/newlib/include/machine/types.h:
-
-/home/geraldo/esp/esp-idf/components/newlib/include/sys/sched.h:
-
-/home/geraldo/esp/esp-idf/components/newlib/include/sys/stdio.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/esp_err.h:
 
@@ -246,27 +256,35 @@ main.o: /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c \
 
 /home/geraldo/esp/esp-idf/components/freertos/include/freertos/list.h:
 
-/home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs_flash.h:
+/home/geraldo/esp/esp-idf/components/freertos/include/freertos/event_groups.h:
 
-/home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs.h:
+/home/geraldo/esp/esp-idf/components/freertos/include/freertos/timers.h:
+
+/home/geraldo/esp/esp-idf/components/freertos/include/freertos/task.h:
 
 /home/geraldo/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/geraldo/esp/esp-idf/components/log/include/esp_log_internal.h:
 
+/home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs_flash.h:
+
+/home/geraldo/esp/esp-idf/components/nvs_flash/include/nvs.h:
+
 /home/geraldo/esp/esp-idf/components/bt/include/esp_bt.h:
 
 /home/geraldo/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_main.h:
-
-/home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_device.h:
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gap_ble_api.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_defs.h:
-
-/home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gap_ble_api.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gatts_api.h:
 
 /home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gatt_defs.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_defs.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_bt_main.h:
+
+/home/geraldo/esp/esp-idf/components/bt/bluedroid/api/include/esp_gatt_common_api.h:
 /home/geraldo/git/ESP32/esptest/helloworld/test/main/./main.c:
